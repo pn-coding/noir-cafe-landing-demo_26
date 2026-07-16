@@ -694,7 +694,8 @@
       /* menu */
       .menu-grid { grid-template-columns: 1fr; gap: 2px; }
       .menu-card { overflow: visible; display: flex; flex-direction: column; }
-      .menu-card-img { aspect-ratio: 16/9; flex-shrink: 0; }
+      .menu-card-img { aspect-ratio: unset; flex-shrink: 0; }
+      .menu-card-img img { height: auto; object-fit: initial; }
       .menu-overlay {
         position: static;
         background: rgba(15,23,42,.96);
